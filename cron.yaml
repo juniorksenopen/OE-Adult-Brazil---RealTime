@@ -1,0 +1,3 @@
+cron:
+  - schedule: "*/15 * * * *"  # Cada 15 minutos
+    command: "python3 tu_script.py"  # Cambia a la ruta de tu script
